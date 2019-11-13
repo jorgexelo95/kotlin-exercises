@@ -9,5 +9,5 @@ fun main(args: Array<String>){
     var c = readLine()!!.toInt()
     if(a > b && a > c) println("Greatest number is $a")
     if(b > a && b > c) println("Greatest number is $b")
-    else println("Greatest number is $c")
+    else if (c > a && c > b) println("Greatest number is $c")
 }

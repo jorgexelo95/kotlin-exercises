@@ -5,7 +5,11 @@ fun main(args:Array<String>){
     var x = readLine()!!.toInt()
     println("Enter a number")
     var y = readLine()!!.toInt()
-    for(i in 1..y){
-        println("$x * $i = ${x*i}")
-    }
-}
+    var arrayResults = Array<Int>(y+1){0}
+    for (i in 1..y){
+    arrayResults[i] = x*i
+    println(arrayResults[i])
+    }}
+
+
+
